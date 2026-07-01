@@ -58,6 +58,7 @@ figure {
 }
 
 .content__text-block {
+  /* position: relative; */
   font-size: 18px;
   line-height: 100%;
 }
@@ -78,6 +79,26 @@ figure {
 
 .content__paragraph:not(:last-child) {
   padding-bottom: 1.5em;
+}
+
+.content__figure {
+  margin: 0 7%;
+  width: calc(100% + 14%);
+  /* position: absolute; */
+  transform: translateX(-14%);
+}
+
+.content__picture {
+  width: 100%;
+}
+
+.content__picture-caption {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #312a4e;
+  margin-bottom: calc((91 * 100%) / 1440);
+  font-size: inherit;
+  font-weight: 400;
 }
 
 .web__link {
